@@ -1,0 +1,8 @@
+# Ignore .env
+#############
+.env
+.DS_Store
+
+# Ignore Node
+#############
+node_modules
