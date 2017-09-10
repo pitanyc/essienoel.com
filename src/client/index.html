@@ -23,49 +23,37 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-toggleable-md fixed-top" color-on-scroll="500">
+    <nav class="navbar navbar-toggleable-md navbar-transparent fixed-top" color-on-scroll="500">
         <div class="container">                        
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 <span class="navbar-toggler-icon"></span>
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Home</a>
+            <!-- <a class="navbar-brand" href="#">Home</a> -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="">
+            </a>
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="navbar-nav mr-auto">
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#pk">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pk">Services</a>
+                        <a class="nav-link" href="#pk">Weddings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pk">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#pk">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#pk">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/EssieNoel" target="_blank">
-                            <i class="fa fa-facebook-square"></i>
-                            <p class="hidden-lg-up">Facebook</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/EssieNoel" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                            <p class="hidden-lg-up">Instagram</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Send us an email" data-placement="bottom" href="https://www.essienoel.com/mail" target="_blank">
-                            <i class="fa fa-envelope"></i>
-                            <p class="hidden-lg-up">Email</p>
-                        </a>            
                     </li>
                 </ul>
             </div>                    
@@ -77,30 +65,17 @@
     <div class="wrapper">
 
         <!-- LANDING -->
-        <!-- <div class="page-header section-dark" style="background-image: url('assets/img/antoine-barres.jpg')">
+        <div class="page-header section-dark" style="background-image: url('assets/img/landing.jpg')">
             <div class="filter"></div>
             <div class="content-center">
                 <div class="container">
-                    <div class="title-brand">
-                        <h1 class="presentation-title">Paper Kit 2</h1>
-                        <div class="fog-low">
-                            <img src="assets/img/fog-low.png" alt="">
-                        </div>
-                        <div class="fog-low right">
-                            <img src="assets/img/fog-low.png" alt="">
-                        </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <h1 class="presentation-title">Dawn Smith</h1>
+                        <!-- <h2 class="presentation-subtitle">Barbados</h2> -->
                     </div>
-
-                    <h2 class="presentation-subtitle text-center">Make your mark with a Free Bootstrap 4 UI Kit! </h2>
                 </div>
             </div>
-            <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); "></div>
-            <h6 class="category category-absolute">Designed and coded by
-                <a href="https://www.creative-tim.com" target="_blank">
-                    <img src="assets/img/creative-tim-white-slim2.png" class="creative-tim-logo">
-                </a>
-            </h6>
-        </div> -->
+        </div>
         <!-- EOF: LANDING -->
 
         <!-- CAROUSEL -->
@@ -176,24 +151,104 @@
     <!-- EOF: WRAPPER -->
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer footer-black footer-big">
         <div class="container">
             <div class="row">
-                <nav class="footer-nav">
-                    <ul>
-                        <li><a href="http://www.creative-tim.com">Creative Tim</a></li>
-                        <li><a href="http://blog.creative-tim.com">Blog</a></li>
-                        <li><a href="http://www.creative-tim.com/license">Licenses</a></li>
-                    </ul>
-                </nav>
-                <div class="credits ml-auto">
-                    <span class="copyright">
-                        © <script>document.write(new Date().getFullYear())</script>, 
-                        made with <i class="fa fa-heart heart"></i> by 
-                        <a href="http://www.peterszocs.com" target="_blank">
-                            Peter Szocs
+                <div class="col-md-2 text-center col-sm-3 col-xs-12">
+                    <h4>Dawn Smith</h4>
+                    <div class="social-area">
+                        <a class="btn btn-just-icon btn-round btn-facebook">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
-                    </span>
+                        <a class="btn btn-just-icon btn-round btn-instagram">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-1 col-sm-8 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-6">
+                            <div class="links">
+                                <ul class="uppercase-links stacked-links">
+                                    <li>
+                                        <a href="#paper-kit">
+                                            <i class="fa fa-phone-square"></i>
+                                            +1 246 435 8301
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#paper-kit">
+                                            <i class="fa fa-envelope-o"></i>
+                                            swands70@gmail.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-6">
+                            <div class="links">
+                                <ul class="stacked-links">
+                                    <li>
+                                        <h4>1,234<br/>
+                                        <small>weddings</small></h4>
+                                    </li>
+                                    <li>
+                                        <h4>2,500<br/>
+                                        <small>events</small></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="copyright">
+                        <div class="links pull-left">
+                            <ul>
+                                <li>
+                                    <a href="#paper-kit">
+                                        Home
+                                    </a>
+                                </li>
+                                |
+                                <li>
+                                    <a href="#paper-kit">
+                                        About Us
+                                    </a>
+                                </li>
+                                |
+                                <li>
+                                    <a href="#paper-kit">
+                                        Weddings
+                                    </a>
+                                </li>
+                                |
+                                <li>
+                                    <a href="#paper-kit">
+                                        Events
+                                    </a>
+                                </li>
+                                |
+                                <li>
+                                    <a href="#paper-kit">
+                                        Gallery
+                                    </a>
+                                </li>
+                                |
+                                <li>
+                                    <a href="#paper-kit">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>                    
+                        <div class="pull-right">
+                            &copy; <script>document.write(new Date().getFullYear())</script>, 
+                            made with <i class="fa fa-heart heart"></i> by 
+                            <a href="http://www.peterszocs.com" target="_blank">
+                                Peter Szocs
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
