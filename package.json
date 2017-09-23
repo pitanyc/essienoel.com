@@ -1,0 +1,25 @@
+{
+  "name": "essienoel.com",
+  "version": "1.0.0",
+  "description": "Essie Noel - premier wedding & event planning in Barbados",
+  "main": "app.js",
+  "repository": "https://github.com/pitanyc/essienoel.com.git",
+  "author": "Peter Szocs <gepesz@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.0",
+    "dotenv": "^4.0.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.4",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.15.5",
+    "fs": "^0.0.1-security",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "nodemailer": "^4.1.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "path": "^0.12.7"
+  }
+}

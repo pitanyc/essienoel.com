@@ -1,0 +1,11 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+  
+.background {
+  height: 100%;
+  background-image: url('../img/palm.png');
+  background-position: center center;
+  background-size: cover;
+}
