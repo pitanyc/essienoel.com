@@ -47,17 +47,19 @@ app.get('/', function(req, res, next) {
 
 // MAIL -----------------------------------------------
 app.post('/mail', function(req, res, next) {
+    // debug
+    // console.log(req.body);
+    
     // create locals
     var name = req.body.name;
     var email = req.body.email;
-    var phone = req.body.phone;
     var message = req.body.message;
 
     // send mail
     mailer
-        .sendMail(name, email, phone, message)
+        .sendMail(name, email, message)
         .then(function(data) {
-            res.send(data);
+            res.redirect('/#contact');
         })
         .catch(function(err) {
             res.send(err);
@@ -68,7 +70,7 @@ app.post('/mail', function(req, res, next) {
 app.use(function(req, res, next) {
     // console.log('404: ' + req.url);
     res.status(404);
-    res.redirect('404.html');
+    res.redirect('/404.html');
 });
 
 // setup error handlers

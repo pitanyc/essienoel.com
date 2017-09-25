@@ -2183,6 +2183,7 @@ textarea.form-control {
 [class*="bg"] .navbar-nav .active .nav-link:focus,
 [class*="bg"] .navbar-nav .nav-item .nav-link:hover,
 [class*="bg"] .navbar-nav .nav-item .nav-link:focus {
+  /* background-color: #BD9960; */
   background-color: transparent;
   color: #FFFFFF;
   opacity: 1;
@@ -2204,6 +2205,7 @@ textarea.form-control {
 .navbar-transparent .navbar-nav .open .nav-link:focus, [class*="bg"] .navbar-nav .open .nav-link,
 [class*="bg"] .navbar-nav .open .nav-link:hover,
 [class*="bg"] .navbar-nav .open .nav-link:focus {
+  /* background-color: #BD9960; */
   background-color: transparent;
   color: #66615B;
   opacity: 1;
@@ -5782,6 +5784,11 @@ textarea.form-control {
 
 .contact-form label {
   margin-top: 15px;
+}
+
+.contact-form label.error {
+  margin-top: 5px;
+  color: #f5593d;
 }
 
 .contact-form .btn {
