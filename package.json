@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Essie Noel - premier wedding & event planning in Barbados",
   "main": "app.js",
+  "scripts": {
+    "start": "node ./src/server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": "https://github.com/pitanyc/essienoel.com.git",
   "author": "Peter Szocs <gepesz@gmail.com>",
   "license": "Apache-2.0",
