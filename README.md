@@ -1,6 +1,6 @@
 # Dawn Smith - Barbados Premier Wedding Planner - Website
 
-This is the source code of [http://www.essienoel.com](http://www.essienoel.com/).
+This is the source code of: [http://www.essienoel.com](http://www.essienoel.com/).
 
 A professional website for the best wedding planner in Barbados: **Dawn Smith**.
 
